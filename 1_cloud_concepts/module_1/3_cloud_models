@@ -1,0 +1,40 @@
+What are Cloud models?
+	- This defines the deployment type of cloud resources
+		- diff types of cloud models are
+			- private
+			- public
+			- hybrid
+			- multi cloud
+			- Azure Arc
+			- 
+			
+
+	Private:- 
+		- This is nothing but the cloud maintained by the single entity(company itself)
+		- The data centre is present in the company itself
+		- It should be maintained completely by the organization
+		- potentially it can even be maintained by a third party that has dedicated that datacenter to your company.
+
+	Public:- 
+		- This is build, controlled and maintained by the third party service provider
+		- Anyone who want to get the cloud resources can purchase and use it 
+		- The general public availability is the only difference between/w private and public
+	Hybrid:-
+		- This the cloud computing environment where it uses both private and public cloud resources in a inter-connected environment
+		- Hybrid cloud provides the extra layer of security
+		- Users can flexibly choose which service to keep in cloud and which to keep in private cloud infrastructures
+
+	Multi Cloud:-
+		- Here it is the combination of multiple public cloud providers and managing resources and security in both environments.
+		- Maybe you will use different features from different cloud providers.
+
+	Azure Arc:-
+		- This is the set of technologies that helps to manage your cloud environment 
+		- It manages your cloud environment, whether it's a public clod solely on azure/private cloud in data centre/a hybrid configuration or a multi cloud environment running on multi cloud providers.
+
+	
+
+	Azure VMware solution:-
+		- if you have already a vm which is installed via private cloud and you wan to move It to a public/hybrid  environment then azure VMware solution lets you run your VM workloads in azure with seamless 	
+			integration and scalability.
+		

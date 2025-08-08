@@ -1,0 +1,93 @@
+Describe the shared responsibility model?
+	- firstly lets talk about traditional corporate data centre
+		- here the company is responsible of maiantaing physical space, power, 24 hours support, security , maitaing/replacing of servers
+		- IT team is responsible of maianting it or keeping it updated to keep the data centre up and running
+		- They are also responsibrl for all teh patches and maianting the correct versions
+		
+	- Now coming to shared responsbility model based on the service you take from the cloud providers the responsbilities changes for the cloud provider and the consumer
+		- Normally physical security, power, cooling and network connectivity are maintained by the cloud provider
+		
+		
+		
+		IaaS :- Infrastructure as a service
+			- IaaS provides virtualized computing resources over the internet. It includes servers, storage, networking, and virtualization.
+			
+			consumer manages:
+				- OS (Operating System)
+				- Middleware
+				- Runtime
+				- Applications
+				- Data
+				
+			Cloud provider Manages:
+				- Virtual machines
+				- Storage
+				- Networking
+				- Physical servers and infrastructure
+				
+			The use case was if you want full control over teh environment with out maintaing hardware this is best
+			
+			Examples:
+				- Amazon EC2
+				- Google Compute Engine
+				- Microsoft Azure Virtual Machines
+				- DigitalOcean Droplets
+				
+		PaaS :- Platform as a service
+			- PaaS provides a platform allowing customers to develop, run, and manage applications without the complexity of building and maintaining the infrastructure and runtime 				environment.
+		
+			consumer manages:
+				- Applications
+				- Data
+
+			Cloud provider Manages:
+				- OS
+				- Middleware
+				- Runtime
+				- Servers
+				- Storage
+				- Networking
+
+			Use case: Focus on coding/development, not infrastructure setup.
+			
+			Examples
+				- Google App engine
+				- Heroku
+				- AWS Elastic Beanstalk
+				- Microsoft Azure App Services
+				
+		SAAS :- Software as a service
+			 - SaaS delivers fully functional software applications over the internet. Users simply access the software through a browser or app.
+			 
+			 consumer manages:
+			 	- Just use the application
+			 	- Minimal to no configuration
+
+			 Cloud provider Manages:
+			 	- Everything: infrastructure, platform, application
+			 
+			 Use case: End-user application consumption.
+			  
+			 Examples:
+			 	- Google Workspace (Gmail, Docs, Sheets)
+			 	- Microsoft 365
+			 	- Salesforce
+			 	- Dropbox
+			 	- Zoom
+-----------------------------------------------------------------------------------------------------------------------------------------------------------				
+When using a cloud provider, you’ll always be responsible for:
+	- The information and data stored in the cloud
+	- Devices that are allowed to connect to your cloud (cell phones, computers, and so on)
+	- The accounts and identities of the people, services, and devices within your organization
+	
+The cloud provider is always responsible for:
+	- The physical datacenter
+	- The physical network
+	- The physical hosts
+				
+				
+Your service model will determine responsibility for things like:
+	- Operating systems
+	- Network controls
+	- Applications
+	- Identity and infrastructure
