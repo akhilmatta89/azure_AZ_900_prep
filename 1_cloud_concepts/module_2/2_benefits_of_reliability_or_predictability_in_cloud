@@ -1,0 +1,31 @@
+Reliability and predictability are two crucial cloud benefits that help you develop solutions with confidence.
+
+Relability:
+	- reliability is nothing but its teh ability of the system to recover from failures and continue to function
+	- its one of the pillars of the azures well-architected framework
+	
+	- The cloud by virtue of its decentralized design, can make sure to recover from failures
+	- decentralized design helps to enable your resources deployed in multiple regions
+	- even though there is some disaster in one of teh region we can shift our traffic to other region without any service distruption
+	-  In some cases, your cloud environment itself will automatically shift to a different region for you, with no action needed on your part
+	
+
+Predictability:
+	- This concept in clouds make you move with confidence on your application performance/deployment
+	- The 2 main factors here were
+		- performance predictability
+		- cost predictability
+		
+	performance predictability:
+		- Performance predictability focuses on predicting the resources needed to deliver a positive experience for your customers.
+		- autoscaling,load balancing, high availability are some of the performance predictability features
+		- if you suddenly need the resources auto-scaling can make sure to provide more resources to meet the requirements, whenever it is not required it scales down the resources
+		- when you are hitting the huge traffic to one of the resource load balancing makes sure to distribute the traffic to other resources
+		
+	cost predictability:
+		- Cost predictability is focused on predicting or forecasting the cost of the cloud spend
+		- with the cloud you can track your resources usge which you are spent in a areal time in the most efficient way.
+		- You can see lively what all resources you are using an dwhich all you are not using and make necassary decisions that will be cost effective
+		- by using cloud and cloud analaytics you can predict future costs and adjust your resources as needed
+		- You can even use tools like the Total Cost of Ownership (TCO) or Pricing Calculator to get an estimate of potential cloud spend.
+	

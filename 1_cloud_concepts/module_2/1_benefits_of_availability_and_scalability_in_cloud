@@ -1,0 +1,37 @@
+The main concepts to be remembered while deploying a application to cloud is
+	- High availabilty -> This means teh application should be available 24/7 without any lag eventhough the traffic is high
+	- ability to handle demand -> our deployemnt model should be in a stage like we can handle the high traffic in peak times
+	
+
+High Avalability:
+	- High availability focuses on ensuring max availabilty regardless of events/distruptions that may occurs.
+	- when we are archetecting our solution we need to account for service availability gurantee
+	- from azure we have Service level agreements which gives uptime gurantees based on the service(formal agreemenet b/w service provider and customer)
+	
+	
+Azure SLA:
+	- This is b/w the Azure and the customer who is using it
+	- SLA's in azure are represented as % related to teh service or applications availability(uptime)
+	- SLA also defines about the downtime, if the SLA's doesnt meet some credit is also entitled to you
+	- maintaing 100% is difficult becuase we migth have some upgrades/downgrades/duplicating teh service when one service has some issue/and also picking up teh new service and starting it 		takes some time, so for this reason we see 99%/99.5%/99.9% are more common 
+	
+Scalability:
+	- scalability refers to the adjustement of services/resources to meet demand
+	- if suddenly there is high traffic to your resource you should have the ability to scale that means bring up more resources during the high traffics 
+	- The benefit in cloud computing models is you wont pay when you dont use the resource therby we can reduce teh costs
+	
+	Scaling generally comes with 2 types of varieties
+		- vertical scaling
+		- horizontal scaling
+		
+		vertical scaling:
+			- vertical scaling is increasing/decreasing teh capabilities of the resource
+			-  if you were developing an app and you needed more processing power, you could vertically scale up to add more CPUs or RAM to the virtual machine. Conversely, 
+			- if you realized you had over-specified the needs, you could vertically scale down by lowering the CPU or RAM specifications.
+			
+		horizontal scaling:
+			- horizontal sclaing is adding/removign the resources during high/low traffic times(automatically/manually)
+			- For example, you could add additional virtual machines or containers, scaling out. In the same manner, if there was a significant drop in demand, deployed resources could be 				scaled in (either automatically or manually), scaling in.
+			
+			
+	

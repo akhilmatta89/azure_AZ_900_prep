@@ -12,5 +12,13 @@ What is consumption based model?
 		- Renting a convention center, leasing a company vehicle, or signing up for cloud services are all examples of OpEx.
 		
 		
-	Cloud computing falls under OpEx because you dont pay anything upfront, whatever resource you use you pay for it
-	If you are not using anyresource this moth you wont get any bill
+	- Cloud computing falls under OpEx because you dont pay anything upfront, whatever resource you use you pay for it
+	- If you are not using anyresource this month you wont get any bill
+	- In cloud computing you dont pay for any physical server/power/security or anything else associated with mainatining a datacentre
+	
+	This consumption-based model has many benefits, including:
+		- No upfront costs.
+		- No need to purchase and manage costly infrastructure that users might not use to its fullest potential.
+		- The ability to pay for more resources when they're needed.
+		- The ability to stop paying for resources that are no longer needed.
+	
